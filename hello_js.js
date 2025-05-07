@@ -6,7 +6,7 @@
 // }
 
 
-let weather = "sunny"
+let weather = "rainny"
 if (weather== "sunny"){
     console.log("I might get sun burn")
 }else if (weather=="foggy") {
