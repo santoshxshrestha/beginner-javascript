@@ -40,8 +40,7 @@
 //
 
 
-// let gpa = parseInt("Enter the gpa ");
-//
+// let gpa = parseFloat(prompt("Enter the gpa"));
 // if (gpa>= 3.6) {
 //     console.log("A+")
 // }else if (gpa>=3) {
@@ -54,32 +53,32 @@
 // }else if (gpa<2) {
 //     console.log("c+")
 // }
+//
+
+// let num1 = parseFloat(prompt("Enter a first float value"));
+// let num2 = parseFloat(prompt("Enter a second float value"));
+// let operator = prompt("Enter the operator of the calculation");
+// switch (operator) {
+//     case "+":
+//         console.log("num1 + num2 = ",num1+num2)
+//         break;
+//     case "-":
+//         console.log("num1 - num2 = ",num1-num2)
+//         break;
+//     case "*":
+//         console.log("num1 * num2 = ",num1*num2)
+//         break;
+//     case "/":
+//         console.log("num1/num2 = ",num1%num2)
+//         break;
+//     case "%":
+//         console.log("num1 % num2 = ",num1%num2)
+//     default:
+//         console.log("Invald value")
+//         break;
+// }
 
 
-let num1 = parseFloat("Enter a first float value");
-let num1 = prompt(parseFloat("Enter a first float value"));
-let num2 = parseFloat("Enter a second float value");
-
-let operator = prompt("Enter the operator of the calculation");
-switch (operator) {
-    case "+":
-        console.log("num1 + num2 = ",num1+num2)
-        break;
-    case "-":
-        console.log("num1 - num2 = ",num1-num2)
-        break;
-    case "*":
-        console.log("num1 * num2 = ",num1*num2)
-        break;
-    case "/":
-        console.log("num1/num2 = ",num1%num2)
-        break;
-    case "%":
-        console.log("num1 % num2 = ",num1%num2)
-    default:
-        console.log("Invald value")
-        break;
-}
 
 
 
