@@ -1,0 +1,25 @@
+{
+  "name": "beginner-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello_js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santoshxshrestha/beginner-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/santoshxshrestha/beginner-javascript/issues"
+  },
+  "homepage": "https://github.com/santoshxshrestha/beginner-javascript#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
