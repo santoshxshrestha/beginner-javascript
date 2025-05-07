@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/santoshxshrestha/beginner-javascript#readme",
   "dependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "typescript": "^5.8.3",
+    "typescript-language-server": "^4.3.4"
   }
 }
