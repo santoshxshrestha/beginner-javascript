@@ -47,12 +47,19 @@
 // }, 1);
 
 
-const interval =  setInterval(()=>{
-    let time = new Date();
-    let hour = time.getHours();
-    let minute = time.getMinutes();
-    let second = time.getSeconds();
-    document.getElementById("clock").
-        innerHTML = `${hour}:${minute}:${second}`
-},1000)
+// const interval =  setInterval(()=>{
+//     let time = new Date();
+//     let hour = time.getHours();
+//     let minute = time.getMinutes();
+//     let second = time.getSeconds();
+//     document.getElementById("clock").
+//         innerHTML = `${hour}:${minute}:${second}`
+// },1000)
+
+l = 31;
+b = 41;
+function area (l,b) {
+    console.log(l*b,"square_units")
+}
+area(l,b)
     
