@@ -62,4 +62,12 @@ function area (l,b) {
     console.log(l*b,"square_units")
 }
 area(l,b)
-    
+
+     function simple_interest(p,t,r) {
+         console.log("The simple interest is: ")
+        console.log((p*t*r)/100)
+    }
+    let p =42425;
+    let t = 52;
+    let r = 12;
+    simple_interest(p,t,r)   
