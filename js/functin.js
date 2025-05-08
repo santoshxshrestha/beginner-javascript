@@ -1,6 +1,11 @@
-function newFn() {
-    console.log("Hello there ");
+function newFn(a,b) {
+    console.log("Hello there this is inside the funtion");
+    let c = a  + b ;
+    console.log(c)
 }
 
-newFn();
-    
+let a = 30;
+let b = 30;
+
+newFn("Hello"," js");
+newFn(a,b);
