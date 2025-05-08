@@ -9,3 +9,9 @@ let b = 30;
 
 newFn("Hello"," js");
 newFn(a,b);
+
+function wishing() {
+    console.log("Hello there Santosh you are in arch")
+}
+wishing();
+
