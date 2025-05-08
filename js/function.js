@@ -47,7 +47,7 @@
 // }, 1);
 
 
-setInterval(()=>{
+const interval =  setInterval(()=>{
     let time = new Date();
     let hour = time.getHours();
     let minute = time.getMinutes();
