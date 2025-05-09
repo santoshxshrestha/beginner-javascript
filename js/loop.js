@@ -54,3 +54,7 @@ for (let i = 1; i <= 6; i++) {
     }
     console.log(line);
 }
+
+for (let i = 1; i<=5; i++){
+    console.log("*")
+}
