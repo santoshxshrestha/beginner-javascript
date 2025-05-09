@@ -56,18 +56,28 @@
 //         innerHTML = `${hour}:${minute}:${second}`
 // },1000)
 
-l = 31;
-b = 41;
-function area (l,b) {
-    console.log(l*b,"square_units")
-}
-area(l,b)
+// l = 31;
+// b = 41;
+// function area (l,b) {
+//     console.log(l*b,"square_units")
+// }
+// area(l,b)
+//
+//      function simple_interest(p,t,r) {
+//          console.log("The simple interest is: ")
+//         console.log((p*t*r)/100)
+//     }
+//     let p =42425;
+//     let t = 52;
+//     let r = 12;
+//     simple_interest(p,t,r)   
+//
+//
 
-     function simple_interest(p,t,r) {
-         console.log("The simple interest is: ")
-        console.log((p*t*r)/100)
-    }
-    let p =42425;
-    let t = 52;
-    let r = 12;
-    simple_interest(p,t,r)   
+let num1 = 1;
+let num2 = 2;
+function sum() {
+    return num1 + num2;
+}
+console.log(`The sum is:` ,sum());
+
