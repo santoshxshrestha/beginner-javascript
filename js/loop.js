@@ -39,22 +39,48 @@
 //     document.write('<br>')
 // }
 
-for (let i = 1; i <= 5; i++) {
-    let line = "";
-    for (let j = 1; j <= i; j++) {
-        line += "* ";
-    }
-    console.log(line);
-}
+// for (let i = 1; i <= 5; i++) {
+//     let line = "";
+//     for (let j = 1; j <= i; j++) {
+//         line += "* ";
+//     }
+//     console.log(line);
+// }
+//
+// for (let i = 1; i <= 6; i++) {
+//     let line = "";
+//     for (let j = 1; j <= i; j++) {
+//         line += "* ";
+//     }
+//     console.log(line);
+// }
+//
+// for (let i = 1; i<=5; i++){
+//     console.log("*")
+// }
 
-for (let i = 1; i <= 6; i++) {
-    let line = "";
-    for (let j = 1; j <= i; j++) {
-        line += "* ";
-    }
-    console.log(line);
-}
+// let space = "";
+//
+// for(i = 1; i<5 ; i++) {
+//
+//     let output = "";
+//     for(j = 1; j<i; j++){
+//         output+="*";
+//
+//     console.log(output)
+//
+//     }
+//
+// }
+//
+//
 
-for (let i = 1; i<=5; i++){
-    console.log("*")
+
+
+//while loop 
+let n =  0 ;
+while (n <= 5) {
+    n++
+    console.log("hello from while loop");
+    
 }
