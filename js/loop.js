@@ -78,9 +78,9 @@
 
 
 //while loop 
-let n =  0 ;
-while (n <= 5) {
-    n++
-    console.log("hello from while loop");
-    
-}
+// let n =  0 ;
+// while (n <= 5) {
+//     n++
+//     console.log("hello from while loop");
+// }
+//
