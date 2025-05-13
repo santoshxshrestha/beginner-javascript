@@ -35,3 +35,7 @@ console.log(arr5)
 
 const ary6 = [[42,2,42,42,52,3,2,52,52,["true", false, "ok"]]]
 console.log(ary6)
+
+console.log(`this is the second element of the first array`, ary6[0][1])
+ary6[ary6.length-1] = 100
+console.log(`This is  the thing that I have added there at the last`,ary6[ary6.length-1])
