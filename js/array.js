@@ -54,5 +54,17 @@ console.log(`beore unshift`, array1)
 array1.unshift(23)
 
 console.log(`after unshift`, array1)
+
+array1.shift()
+console.log(`after shift`, array1)
 console.log(`The val after unshift `,array1[array1.length-1])
 
+
+let array2 = [1,2,3,4,5,6,72,52,32,52,52,8];
+console.log(`the original arrray2 is`,array2)
+console.log(array2.slice(0,2))
+console.log(`The val after the slice of the 1,4`,array2.slice(1,4))
+
+
+let array3 = [1,2,3,4,5,6,7,8,9];
+console.log(`the output after usign the splice 1,4`,array3.splice(1,4))
