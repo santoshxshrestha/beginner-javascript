@@ -118,10 +118,41 @@
 //     console.log(`the array is`,array)
 // })
 
-    const sunil = [{
-        name:"sunil",
-        address: [{
-            permanent:["Gulmi","thanapathi","03"],
-            temporary:["Butwal","padampur","06"],
-        }]
-    }]
+const student = [
+    {
+        name: "Santosh",
+        address: [
+            {
+                permanent: ["Gulmi","Baletaksar",4],
+                temprorary: ["Butwal","Golparak", 5],
+            },
+        ],
+        klass: "bachelors",
+    },
+];
+
+const permanents  = student.forEach((values ) => {
+    console.log(values.address[0].permanent[2]);
+})
+
+const pern = student.map((values)=> {
+    console.log(values.address[0].permanent[2]);
+})
+
+
+//flap map 
+//flat map is used to flatten the array which mean it remove the array inside the array 
+//flat map takes 3 argumets : value , index, array
+//flat map loops the array untill all the elements are extracted 
+
+
+const array4 = [42,52,52,32,[42,42,52,32],52,32,52,32,42,42]
+const array5 = array4.map((values, index, array)=>{
+    console.log(values);
+})
+
+console.log("----------------------------")
+const array6 = array4.flatMap((values, index, array) => {
+    console.log(values)
+})
+
