@@ -230,7 +230,7 @@ let array20 = ["bachelors","master", "phd"]
 let array21 = array18.slice(0,3);
 
 let array22 = array19.filter((values)=>{
-    values>= 3
+    return values>= 3
 });
 
 let array23 = array20.filter((value, index, array) => {
