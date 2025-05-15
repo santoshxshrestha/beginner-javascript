@@ -156,3 +156,36 @@ const array6 = array4.flatMap((values, index, array) => {
     console.log(values)
 })
 
+//filter creates a new array 
+//filter takes 3 arguments : value , index , array
+//filter takes a condition and reaturns a new array 
+//values that passes the condition are printed 
+
+const filter_array = [1,2,3,4,5,6,7,8,9];
+const new_filter = filter_array.filter((values, index, array) => {
+    return values>= 50
+});
+
+console.log(new_filter)
+
+//reduce 
+//reduce take two argument: accumulated value, totalvalue
+//reduce changes the value in a single form 
+//reduce is used for numeric values
+let array7  = [42,42,52,32,52,32,2,32,42,32,42,42];
+
+let array8 = array7.reduce((accumulated, totalvalue) => {
+    return accumulated + totalvalue
+})
+
+
+let array9 = array7.reduceRight((accumulated, totalvalue) => {
+    return accumulated + totalvalue
+})
+
+let array10 = array7.reduceRight((accumulated, totalvalue) => {
+    return accumulated - totalvalue
+})
+console.log(array8)
+console.log(array9)
+console.log(array10)
