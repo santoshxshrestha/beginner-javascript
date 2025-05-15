@@ -189,3 +189,41 @@ let array10 = array7.reduceRight((accumulated, totalvalue) => {
 console.log(array8)
 console.log(array9)
 console.log(array10)
+
+//some
+//some acts like or logical operator 
+//one argument is enought
+
+let array11 = [12,21,41,21,41,241,52,53,436,534,355,42,32,52];
+const array12 = array11.some((value)=> {
+    return value> 30
+})
+console.log(array12)
+
+let array13 = [12,21,41,21,41,241,52,53,436,534,355,42,32,52];
+const array14 = array13.some((value)=> {
+    return value> 30
+})
+console.log(array14)
+
+
+//spread operators 
+//spread operators mergs two or more array into one 
+//it uses 3 dot to rrepresent spread opearatro (..ary1)
+
+
+
+let array15 = [1,2,3,4,5,6,7,8,9]
+let array16  = ["hello", "there", "this is js", "2g"]
+let array17  = [true, false, null]
+
+let merged_array = [...array15,...array16,...array17]
+console.log(merged_array)
+
+
+
+// exercise using teh array iteration 
+//find the sum of the all the elements in an array 
+//find the sum of teh all the even number in an array 
+//find the sumof all the odd number in the array 
+//find the sum of the ll the odd numbers in teh aarray
