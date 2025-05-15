@@ -221,9 +221,23 @@ let merged_array = [...array15,...array16,...array17]
 console.log(merged_array)
 
 
+let array18 = ["ram", "shyam", "hari", "gita", "sita"]
+let array19 = [1,2,3,4,5]
+let array20 = ["bachelors","master", "phd"]
 
-// exercise using teh array iteration 
-//find the sum of the all the elements in an array 
-//find the sum of teh all the even number in an array 
-//find the sumof all the odd number in the array 
-//find the sum of the ll the odd numbers in teh aarray
+//extract the boys val and roll numb 3,4,5 wit master val and log it in new array
+
+let array21 = array18.slice(0,3);
+
+let array22 = array19.filter((values)=>{
+    values>= 3
+});
+
+let array23 = array20.filter((value, index, array) => {
+    return value =="master"
+})
+
+// let array23 = array
+let merged_new = [...array21,...array22,...array23]
+console.log(merged_new)
+
