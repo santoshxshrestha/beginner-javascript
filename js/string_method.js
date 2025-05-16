@@ -86,3 +86,7 @@ console.log("hello satosh".toLocaleLowerCase());
 
 //one of the use inputs there nameand yo have to convert take the first letter of the name and print as the gmail cover 
 
+let naming = prompt("Enter your name ", "Santosh");
+let firstletter = naming.split(" ")[0].charAt(0).toUpperCase();
+let lastletter = naming.split(" ")[1].charAt(0).toUpperCase();
+document.getElementById("letter").innerHTML = firstletter + lastletter;
