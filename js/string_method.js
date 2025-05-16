@@ -78,3 +78,11 @@ let a= "hello";
 let b= " santosh";
 
 console.log(a.concat(b))
+
+console.log("hello world".toUpperCase());
+console.log("HELLO WORLD".toLowerCase());
+console.log("hello satosh".toLocaleLowerCase());
+
+
+//one of the use inputs there nameand yo have to convert take the first letter of the name and print as the gmail cover 
+
