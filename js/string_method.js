@@ -74,3 +74,7 @@ console.log(newstr_here)
 //includes test if the content are there in the given string 
 console.log("hello world".includes("hello santosh"));
 
+let a= "hello";
+let b= " santosh";
+
+console.log(a.concat(b))
