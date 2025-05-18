@@ -1,23 +1,22 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
 
-  <body>
-    <!-- <h1 id="clock"></h1> -->
-    <!-- <button onclick="clearInterval(interval)">stop</button> -->
-    <!-- <script src="./js/index.js"></script> -->
-    <!-- <script src="./js/function.js"></script> -->
-    <!-- <script src="./js/loop.js"></script> -->
-    <!-- <script src="./js/array.js"></script> -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
 
-    <div
-      id="letter"
-      style="
+<body>
+  <!-- <h1 id="clock"></h1> -->
+  <!-- <button onclick="clearInterval(interval)">stop</button> -->
+  <!-- <script src="./js/index.js"></script> -->
+  <!-- <script src="./js/function.js"></script> -->
+  <!-- <script src="./js/loop.js"></script> -->
+  <!-- <script src="./js/array.js"></script> -->
+
+  <div id="letter" style="
         display: flex;
         justify-content: center;
         align-items: center;
@@ -27,8 +26,13 @@
         height: 80px;
         width: 80px;
         border-radius: 50%;
-      "
-    ></div>
-    <script src="./js/string_method.js"></script>
-  </body>
+      "></div>
+  <script src="./js/string_method.js"></script>
+
+  <div id="otpNum"></div>
+  <button onclick="generateOtp()"></button>
+
+  <script src="./js/maths_form.js"></script>
+</body>
+
 </html>
