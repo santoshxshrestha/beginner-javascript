@@ -50,7 +50,7 @@ const students  = [
     {
         name: "diwas",
         rollNo: 63,
-        adress: [{
+        address: [{
             ward: "02",
             muncipality: "tilottma",
             locality: "yogikuti"
@@ -62,7 +62,7 @@ const students  = [
     {
         name: "bishop",
         rollNo: 42,
-        adress: [{
+        address: [{
             ward: "9",
             muncipality: "I don't know",
             locality: "undefined"
@@ -73,7 +73,7 @@ const students  = [
     {
         name: "king",
         rollNo: 1,
-        adress: [{
+        address: [{
             ward: "0",
             muncipality: "this can't be done",
             locality: "undefined"
@@ -82,10 +82,9 @@ const students  = [
     },
 ];
 
-console.log(students[0].adress[0].locality)
+console.log(students[0].address[0].locality)
 console.log(students.map((value, index, array)=> {
-    return value.adress.map((value,index, array) => {
+    return value.address.map((value,index, array) => {
         return value.muncipality
-        return value.locality
     })
 }))
