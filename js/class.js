@@ -88,3 +88,7 @@ console.log(students.map((value, index, array)=> {
         return value.muncipality
     })
 }))
+
+console.log(students.map((value)=> {
+    return value.batch;
+}))
