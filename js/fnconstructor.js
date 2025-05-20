@@ -55,10 +55,20 @@ class Student{
         return stuentDetails;
     }
 }
-class sectionB extends Student{
-    constructor(name, age, address, phone, rollno){
+class section extends Student{
+    constructor(name, age, address, phone, section){
+        super(name, age, address, phone)
+        this.section = section;
+    }
+
+    sect(){
+        return `${this.names} if of section ${this.section}`
     }
     
 }
 let santosh = new Student("Santosh", 20, "Golpark", "None of your business");
 console.log(santosh.details());
+
+let samip = new section("samip", 28, "pulchowk", "None of your business", "A section");
+console.log(samip.sect());
+
