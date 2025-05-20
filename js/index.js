@@ -277,14 +277,14 @@
 // 3. While.
 
 //.....................For Loop...............//
-for(let i=0; i>=5;i++)  //simple syntax for increament 
-{
-    console.log(i);
-}
-for(let i=5; i>0;i--)  //simple syntax for decreament
-{
-    console.log(i);
-}/ console.log("Hello santosh")
+// for(let i=0; i>=5;i++)  //simple syntax for increament 
+// {
+//     console.log(i);
+// }
+// for(let i=5; i>0;i--)  //simple syntax for decreament
+// {
+//     console.log(i);
+// }/ console.log("Hello santosh")
 // if (2==2){
 //     console.log("equal")
 // }else{
@@ -363,45 +363,3 @@ for(let i=5; i>0;i--)  //simple syntax for decreament
 //         console.log("Invald value")
 //         break;
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
