@@ -52,3 +52,18 @@ const numInput = () => {
         console.log("I am out");
     }
 };
+
+
+let code = new Promise((resolve, reject) => {
+    // No need to return here; just call resolve directly
+    return reject();
+});
+
+code
+    .then(() => {
+        // message will be "this is successful"
+        console.log("this function is correct:", message);
+    })
+    .catch((err) => {
+        console.log(err);
+    });
