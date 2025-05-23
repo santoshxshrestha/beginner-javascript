@@ -13,3 +13,20 @@ loadApi.then((response)=> {
 }).catch((err)=>{
     console.log(err)
 })
+
+function loadData() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            let success = true;
+            if (success) {
+                resolve({
+                    name: "Santosh Shrestha",
+                    phone: "lol",
+                    email: "santosh@gmail.com",
+                });
+            } else {
+                reject("something went wrong !!!");
+            }
+        }, 100);
+    });
+}
