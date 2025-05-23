@@ -30,3 +30,11 @@ function loadData() {
         }, 100);
     });
 }
+
+loadData()
+    .then((response) => {
+        console.log(response);
+    })
+    .catch((err) => {
+        console.log(err);
+    });
