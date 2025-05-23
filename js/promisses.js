@@ -31,6 +31,7 @@ function loadData() {
     });
 }
 
+//load actual data
 loadData()
     .then((response) => {
         console.log(response);
@@ -38,3 +39,22 @@ loadData()
     .catch((err) => {
         console.log(err);
     });
+
+function actualData() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            fetch("https://jsonplaceholder.typicode.com/users")
+                .then(res => res.json())
+                .then(data => resolve(data))
+                .catch(err => reject("something went wrong !!!"));
+        }, 100);
+    });
+}
+
+actualData()
+    .then((response) => {
+        console.log(response); // Actual user data
+    })
+    .catch((err) => {
+        console.log(err);
+    });//load actual data 
