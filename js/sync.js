@@ -10,14 +10,39 @@
 //
 // console.log(dat());
 //
-async function datWho(){
-    let res = Promise.resolve("success");
-    await res
+// async function datWho(){
+//     let res = Promise.resolve("success");
+//     // let o = "0"
+//     await res
+// }
+//
+// datWho().then((res)=>{
+//     console.log("fantastc")
+// })
+//     .catch((err)=>{
+//     console.log(err)
+// })
+
+
+
+
+
+
+async function AsyncAwait(){
+    let res = new Promise((res, rej)=>{
+        setTimeout(()=>{
+            return res();
+        },3000)
+    })
+    await res;
 }
 
-datWho().then(()=>{
-    console.log("fantastc")
+console.log("the promise is begin printed")
+
+AsyncAwait().then(()=>{
+    console.log("the promse is resolved")
 })
-    .catch((err)=>{
+.catch((err)=>{
     console.log(err)
 })
+
