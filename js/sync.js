@@ -56,7 +56,7 @@ async function LoadingApi(){
             throw ("opps something went wrong !!")
         }
         let data = await response.json()
-        console.log(data)
+        document.getElementById("datas").innerHTML = JSON.stringify(data)
     }
     catch(err){
         console.log(err)
