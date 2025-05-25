@@ -28,21 +28,39 @@
 
 
 
-async function AsyncAwait(){
-    let res = new Promise((res, rej)=>{
-        setTimeout(()=>{
-            return res();
-        },3000)
-    })
-    await res;
+// async function AsyncAwait(){
+//     let res = new Promise((res, rej)=>{
+//         setTimeout(()=>{
+//             return res();
+//         },3000)
+//     })
+//     await res;
+// }
+//
+// console.log("the promise is begin printed")
+//
+// AsyncAwait().then(()=>{
+//     console.log("the promse is resolved")
+// })
+// .catch((err)=>{
+//     console.log(err)
+// })
+//
+
+
+async function LoadingApi(){
+    let url = fetch("https://jsonplaceholder.typicode.com/users")
+    try{
+        const response = await url
+        if(!response.ok){
+            throw ("opps something went wrong !!")
+        }
+        let data = await response.json()
+        console.log(data)
+    }
+    catch(err){
+        console.log(err)
+    }
+
 }
-
-console.log("the promise is begin printed")
-
-AsyncAwait().then(()=>{
-    console.log("the promse is resolved")
-})
-.catch((err)=>{
-    console.log(err)
-})
-
+LoadingApi();
