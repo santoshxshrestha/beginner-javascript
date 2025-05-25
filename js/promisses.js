@@ -51,10 +51,15 @@ function actualData() {
     });
 }
 
-actualData()
-    .then((response) => {
-        console.log(response); // Actual user data
+loadData().then((res)=>{
+    res.map((value) => {
+        document.getElementById("apiData").innerHTML = `
+        <strong> Name: </strong> ${value.name}<br>
+        <strong> UserName: </strong> ${value.username}<br>
+        <strong> email: </strong> ${value.email}<br>
+       ` 
     })
-    .catch((err) => {
-        console.log(err);
-    });//load actual data 
+})
+.catch((err)=>{
+    console.log(err);
+})
