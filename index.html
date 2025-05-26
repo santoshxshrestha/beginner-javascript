@@ -1,22 +1,23 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/style.css" />
-</head>
+  <body>
+    <!-- <h1 id="clock"></h1> -->
+    <!-- <button onclick="clearInterval(interval)">stop</button> -->
+    <!-- <script src="./js/index.js"></script> -->
+    <!-- <script src="./js/function.js"></script> -->
+    <!-- <script src="./js/loop.js"></script> -->
+    <!-- <script src="./js/array.js"></script> -->
 
-<body>
-  <!-- <h1 id="clock"></h1> -->
-  <!-- <button onclick="clearInterval(interval)">stop</button> -->
-  <!-- <script src="./js/index.js"></script> -->
-  <!-- <script src="./js/function.js"></script> -->
-  <!-- <script src="./js/loop.js"></script> -->
-  <!-- <script src="./js/array.js"></script> -->
-
-  <div id="letter" style="
+    <div
+      id="letter"
+      style="
         display: flex;
         justify-content: center;
         align-items: center;
@@ -26,38 +27,39 @@
         height: 80px;
         width: 80px;
         border-radius: 50%;
-      "></div>
-  <!-- <script src="./js/string_method.js"></script> -->
-  <script src="./js/promisses.js"></script>
+      "
+    ></div>
+    <!-- <script src="./js/string_method.js"></script> -->
+    <script src="./js/promisses.js"></script>
 
-  <div id="otpNum"></div>
-  <button onclick="generateOtp()"></button>
+    <div id="otpNum"></div>
+    <button onclick="generateOtp()"></button>
 
-  <!-- <script src="./js/maths_form.js"></script> -->
-  <input type="text" id="newValue" value="" placeholder="Enter your name" />
-  <div id="message">-----------------------------------------</div>
-  <button type="" onclick="validation()">check</button>
-  <script>
-    console.log("hello worls");
-  </script>
-  <script src="./js/error_handel.js"></script>
+    <!-- <script src="./js/maths_form.js"></script> -->
+    <input type="text" id="newValue" value="" placeholder="Enter your name" />
+    <div id="message">-----------------------------------------</div>
+    <button type="" onclick="validation()">check</button>
+    <script>
+      console.log("hello worls");
+    </script>
+    <script src="./js/error_handel.js"></script>
 
-  <div>
-    <h1>Number checker</h1>
     <div>
-      <input type="text" class="inputValue" name="" value="" />
+      <h1>Number checker</h1>
+      <div>
+        <input type="text" class="inputValue" name="" value="" />
+      </div>
+      <div class="errMessage"></div>
+      <button onclick="numInput()">check</button>
     </div>
-    <div class="errMessage"></div>
-    <button onclick="numInput()">check</button>
-  </div>
 
-  <h1>Api fetch</h1>
-  <div id="apiData"></div>
+    <h1>Api fetch</h1>
+    <div id="apiData"></div>
 
-  <script src="./js/promisses.js"></script>
-  <div id="datas"></div>
+    <script src="./js/promisses.js"></script>
+    <div id="datas"></div>
 
-  <script src="./js/sync.js"></script>
-</body>
-
+    <a href="dom.html">here is the content for the dom</a>
+    <script src="./js/sync.js"></script>
+  </body>
 </html>
